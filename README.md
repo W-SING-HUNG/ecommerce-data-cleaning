@@ -12,14 +12,14 @@
 - **来源**：[UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/online+retail)
 - **许可**：Creative Commons Attribution 4.0 International (CC BY 4.0)
 - **描述**：数据集包含541,909条交易记录，涵盖8个字段：
-  - `InvoiceNo`：交易编号（6位，以“C”开头表示取消）
-  - `StockCode`：产品编号（5位）
-  - `Description`：产品名称
-  - `Quantity`：交易数量
-  - `InvoiceDate`：交易日期和时间
-  - `UnitPrice`：单价（英镑）
-  - `CustomerID`：客户编号（5位）
-  - `Country`：客户所在国家
+  - `InvoiceNo`: Invoice Number (6-digit, starting with "C" indicates a canceled transaction)
+  - `StockCode`: Product Code (5-digit)
+  - `Description`: Product Name
+  - `Quantity`: Transaction Quantity
+  - `InvoiceDate`: Transaction Date and Time
+  - `UnitPrice`: Unit Price (in GBP)
+  - `CustomerID`: Customer ID (5-digit)
+  - `Country`: Customer's Country
 
 ## Analysis Objectives
 本项目的核心目标是：
@@ -159,7 +159,7 @@ cleaned_data.to_csv("e_commerce_cleaned.csv", index=False)
 
 ## License
 - **代码**：MIT License
-- **数据集**：Creative Commons Attribution 4.0 International (CC BY 4.0)，详情见数据来源。
+- **数据集**：Creative Commons Attribution 4.0 International (CC BY 4.0)，详情见Data Source。
 
 ## Contact Information
 如有问题或建议，请通过 1822208056@QQ.COM 联系，或查看我的 [GitHub 主页](https://github.com/W-SING-HUNG)。
